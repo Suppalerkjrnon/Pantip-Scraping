@@ -4,4 +4,4 @@ A basic web scraping project designed to extract data from "Pantip", a popular T
 
 
 
-![screenshot](Pantip Web Scraping.jpg)
+![screenshot](screen_shot.jpg)
