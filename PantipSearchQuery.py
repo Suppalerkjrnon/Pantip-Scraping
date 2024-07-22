@@ -1,12 +1,8 @@
 
 import requests
-import pandas as pd
 import json
 from tqdm import tqdm
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import pickle
-from functools import lru_cache
 
 class PantipSearchQuery:
     def __init__(self, keyword, page_number, num_workers):
