@@ -1,4 +1,3 @@
-
 import requests
 import json
 from tqdm import tqdm
@@ -93,7 +92,7 @@ class PantipSearchQuery:
                     print(f"Failed to process page {i}. Error: {e}")
 
                 # Add delay to avoid server rate limits
-                time.sleep(0.1)
+                time.sleep(0.1) # 100 milliseconds
 
         # Sort the results by page number
         sorted_results = {k: results_dict[k] for k in sorted([k for k in results_dict.keys() if isinstance(k, int)])}
